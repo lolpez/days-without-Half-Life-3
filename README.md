@@ -1,7 +1,7 @@
 # Days without Half Life 3
 Progressive web app showing the days without Half Life 3 since the release of HL2 ep. 2 and other curious information.
 ## About
-<img src="https://raw.githubusercontent.com/lolpez/days-without-Half-Life-3/master/public/img/dwhl3-logo.jpg" alt="Days without Half Life 3"/>
+<img src="https://github.com/lolpez/days-without-Half-Life-3/blob/master/public/img/dwhl3-logo.png" alt="Days without Half Life 3"/>
 
 Displays the days without Half Life 3 since the release of HL2 ep. 2 and other curious information.
 
@@ -41,4 +41,5 @@ This project is licensed under the Apache License - see the [LICENSE.md](LICENSE
 * Google JavaScript Style Guide
 * Valve
 * Half Life
+* [Color-hex](https://www.color-hex.com/color-palette/22432)
 * Videogame gods
