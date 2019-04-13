@@ -1,0 +1,17 @@
+{
+    "background_color": "#292929",
+    "theme_color": "#292929",
+    "description": "Progressive web app showing the days without Half Life 3 since the release of HL2 ep. 2 and other curious information",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/img/dwhl3-logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "name": "Days without Half Life 3",
+    "short_name": "Days without Half Life 3",
+    "start_url": "/",
+    "scope": "/"
+}

@@ -1,0 +1,44 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: #292929;
+    color: #fb7e14;
+}
+
+.title{
+	text-decoration: none;
+	color: #fb7e14;
+	font-size: 2em;
+}
+
+.container{
+	width: 100%;
+}
+
+.section{
+	width: 50%;
+	display: inline-block;
+}
+
+.github-corner:hover .octo-arm{
+	animation:octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave{
+	0%,100%{
+		transform:rotate(0)
+	}20%,60%{
+		transform:rotate(-25deg)
+	}40%,80%{
+		transform:rotate(10deg)
+	}
+}
+
+@media (max-width:500px){
+	.github-corner:hover .octo-arm{
+		animation:none
+	}
+	.github-corner .octo-arm{
+		animation:octocat-wave 560ms ease-in-out
+	}
+}
