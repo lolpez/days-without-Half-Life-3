@@ -26,6 +26,13 @@ a {
 	text-align: center;
 }
 
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 800px) {
+	.section{
+		width: 100%;
+	}
+}
+
 .number{
 	font-size: 4em;
 }
