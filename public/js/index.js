@@ -1,7 +1,12 @@
 (function () {
-    const timeElement = document.getElementById("time");
+    const dayElement = document.getElementById("day");
+    const monthElement = document.getElementById("month");
+    const yearElement = document.getElementById("year");
     var now = moment();
-    timeElement.innerHTML = `Time: ${now.format("MM/DD/YYYY, h:mm:ss a")}`;
+    var halfLife = moment("2007-10-10");
+    dayElement.innerHTML = now.diff(halfLife, "days");
+    monthElement.innerHTML = now.diff(halfLife, "months");
+    yearElement.innerHTML = now.diff(halfLife, "years");
     // Service worker
     if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("sw.js").then((reg) => {

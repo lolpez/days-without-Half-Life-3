@@ -5,9 +5,14 @@ body {
     color: #fb7e14;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 .title{
 	text-decoration: none;
-	color: #fb7e14;
+	color: inherit;
 	font-size: 2em;
 }
 
@@ -16,8 +21,13 @@ body {
 }
 
 .section{
-	width: 50%;
+	width: 33.333333333333%;
 	display: inline-block;
+	text-align: center;
+}
+
+.number{
+	font-size: 4em;
 }
 
 .github-corner:hover .octo-arm{
