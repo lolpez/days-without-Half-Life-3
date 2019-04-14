@@ -1,8 +1,23 @@
-body {
+body{
 	padding: 50px;
 	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.main-theme{
+	color: #fb7e14;
 	background: #292929;
-    color: #fb7e14;
+}
+
+.main-color{
+	color: #fb7e14;
+}
+
+.main-background{
+	background: #292929;
+}
+
+h1 {
+	display: inline-block;
 }
 
 a {
@@ -13,7 +28,25 @@ a {
 .title{
 	text-decoration: none;
 	color: inherit;
-	font-size: 2em;
+	font-size: 50px;
+	margin-bottom: 1vh;
+	display: table;
+}
+
+.subtitle{
+	text-decoration: none;
+	color: inherit;
+	font-size: 20px;
+	display: table;
+}
+
+.section-total{
+	width: 100%;
+	text-align: center;
+	margin-top: 15%;
+    margin-bottom: 15%;
+	color: #fff;
+	font-size: 50px;
 }
 
 .container{
@@ -24,6 +57,23 @@ a {
 	width: 33.333333333333%;
 	display: inline-block;
 	text-align: center;
+	margin-bottom: 10px;
+}
+
+.section .number{
+	color: #fff;
+	font-size: 50px;
+}
+
+.section .name{
+	font-size: 25px;
+}
+
+.box{
+	border-style: solid;
+    border-color: #fb7e14;
+    display: inherit;
+    width: 60%;
 }
 
 /* Use a media query to add a breakpoint at 800px: */
@@ -31,10 +81,10 @@ a {
 	.section{
 		width: 100%;
 	}
-}
-
-.number{
-	font-size: 4em;
+	.section-total{
+		top: 5%;
+		font-size: 40px;
+	}
 }
 
 .github-corner:hover .octo-arm{

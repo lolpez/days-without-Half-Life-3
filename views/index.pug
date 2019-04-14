@@ -2,15 +2,23 @@ extends layout
 
 block content
 	.container
-		h3.section
-			| Days
-			br
-			span.number#day
-		h3.section
-			| Months
-			br
-			span.number#month
-		h3.section
-			| Years
-			br
-			span.number#year
+		.section-total
+			span#total-years 
+			|  years, 
+			span#total-months
+			|  months and 
+			span#total-days
+			|  days without Half Life 3
+	.container
+		.section
+			.box
+				.name Days
+				span.number#day
+		.section
+			.box
+				.name Months
+				span.number#month
+		.section
+			.box
+				.name Years
+				span.number#year
