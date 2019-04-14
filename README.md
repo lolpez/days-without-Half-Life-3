@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="https://github.com/lolpez/gasta">
+    <a href="https://days-without-half-life-3.herokuapp.com"/>
         <img src="https://raw.githubusercontent.com/lolpez/days-without-Half-Life-3/master/public/img/dwhl3-logo.png" alt="Days without Half Life 3" height=100 />
     </a>
     <br>Days without Half Life 3
