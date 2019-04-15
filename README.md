@@ -6,6 +6,7 @@
 </h1>
 <h3 align="center">
 A Progressive Web App showing the days without Half Life 3 since the release of HL2 ep. 2 and other curious information.
+    
 <a href="https://days-without-half-life-3.herokuapp.com"/>Demo</a>
 
 ## Getting Started
