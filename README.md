@@ -45,7 +45,7 @@ This project is licensed under the Apache License - see the [LICENSE.md](LICENSE
 * [ExpressJS](https://expressjs.com/)
 * [MomentJS](https://momentjs.com/)
 * [PUG](https://pugjs.org)
-* [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+* [ESLint JavaScript Style Guide](https://eslint.org/docs/rules/)
 * [Valve Corporation](https://www.valvesoftware.com/en/)
 * [Half Life](https://store.steampowered.com/app/70/HalfLife/)
 * [Half Life 2](https://store.steampowered.com/app/220/HalfLife_2/)

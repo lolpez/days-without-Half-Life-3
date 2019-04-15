@@ -10,21 +10,21 @@
     const halfLife = moment("2007-10-10");
 
     const updateTotal = (today, oldDate) => {
-        let years = today.diff(oldDate, 'year');
-        oldDate.add(years, 'years');
-        let months = today.diff(oldDate, 'months');
-        oldDate.add(months, 'months');
-        let days = today.diff(oldDate, 'days');
+        let years = today.diff(oldDate, "year");
+        oldDate.add(years, "years");
+        let months = today.diff(oldDate, "months");
+        oldDate.add(months, "months");
+        let days = today.diff(oldDate, "days");
         totalYearsElement.innerHTML = years;
         totalMonthsElement.innerHTML = months;
         totalDaysElement.innerHTML = days;
-    }
+    };
 
     const updateInfo = (today, oldDate) => {
         dayElement.innerHTML = today.diff(oldDate, "days");
         monthElement.innerHTML = today.diff(oldDate, "months");
         yearElement.innerHTML = today.diff(oldDate, "years");
-    }
+    };
 
     updateTotal(now.clone(), halfLife.clone());
     updateInfo(now.clone(), halfLife.clone());
