@@ -6,6 +6,7 @@
 </h1>
 <h3 align="center">
 A Progressive Web App showing the days without Half Life 3 since the release of HL2 ep. 2 and other curious information.
+<a href="https://days-without-half-life-3.herokuapp.com"/>Demo</a>
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for Development environment.
@@ -20,7 +21,7 @@ What things you need to install the software and how to install them.
 ```
 git clone https://github.com/lolpez/code-scenario-generator.git
 ```
-* Open a command prompt inside the project folder and typing:
+* Open a command prompt inside the project folder and type:
 ```
 npm install
 ```
@@ -38,10 +39,13 @@ This project is licensed under the Apache License - see the [LICENSE.md](LICENSE
 
 ## Acknowledgments
 
-* NodeJS
-* ExpressJS
-* Google JavaScript Style Guide
-* Valve
-* Half Life
+* [NodeJS](https://nodejs.org/en/)
+* [ExpressJS](https://expressjs.com/)
+* [MomentJS](https://momentjs.com/)
+* [PUG](https://pugjs.org)
+* [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+* [Valve Corporation](https://www.valvesoftware.com/en/)
+* [Half Life](https://store.steampowered.com/app/70/HalfLife/)
+* [Half Life 2](https://store.steampowered.com/app/220/HalfLife_2/)
 * [Color-hex](https://www.color-hex.com/color-palette/22432)
 * Videogame gods
