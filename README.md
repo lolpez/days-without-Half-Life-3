@@ -37,7 +37,9 @@ npm start
 * **Luis Daniel** - *Developer*
 
 ## License
-This project is licensed under the Apache License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the Apache License - see the [LICENSE.md](LICENSE) file for details.
+
+Valve, the Valve logo, Half-Life, the Half-Life logo, the Lambda logo, are registered trademarks of Valve Corporation. All other trademarks are property of their respective owners.
 
 ## Acknowledgments
 
