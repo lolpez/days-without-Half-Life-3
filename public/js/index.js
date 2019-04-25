@@ -30,18 +30,16 @@
     const updateInfoBoxes = (minDate, maxDate) => {
         let min = minDate.clone();
         let max = maxDate.clone();
-        dayElement.innerHTML = Math.round(max.diff(min, "days") * 100) / 100;
-        monthElement.innerHTML = Math.round(max.diff(min, "months") * 100) / 100;
-        yearElement.innerHTML = Math.round(max.diff(min, "years") * 100) / 100;
+        dayElement.innerHTML = Math.round(max.diff(min, "days", true) * 100) / 100;
+        monthElement.innerHTML = Math.round(max.diff(min, "months", true) * 100) / 100;
+        yearElement.innerHTML = Math.round(max.diff(min, "years", true) * 100) / 100;
     };
 
     setInterval(() => {
-        let present = moment("2019-04-26");
+        let present = moment();
         if (moment(present.format("YYYY-MM-DD")).isAfter(today.format("YYYY-MM-DD"))) {
             today = present;
             updateApp();
-        } else {
-            console.log("nope");
         }
     }, 3000);
 
