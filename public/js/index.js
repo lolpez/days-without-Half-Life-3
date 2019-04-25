@@ -7,13 +7,15 @@
     const now = moment();
     const halfLife = moment("2007-10-10");
 
-    const updateTotal = (today, oldDate) => {
+    const updateTotal = (minDate, maxDate) => {
+        let min = minDate.clone();
+        let max = maxDate.clone();
         let echoesOfAResonanceCascade = "";
-        let years = today.diff(oldDate, "year");
-        oldDate.add(years, "years");
-        let months = today.diff(oldDate, "months");
-        oldDate.add(months, "months");
-        let days = today.diff(oldDate, "days");
+        let years = max.diff(min, "year");
+        min.add(years, "years");
+        let months = max.diff(min, "months");
+        min.add(months, "months");
+        let days = max.diff(min, "days");
         echoesOfAResonanceCascade += `${years} years`;
         if (months > 0) {
             echoesOfAResonanceCascade += `${(days > 0) ? ", " : " and "} ${months} month${(months > 1) ? "s" : ""}`;
@@ -25,14 +27,16 @@
         totalElement.innerHTML = echoesOfAResonanceCascade;
     };
 
-    const updateInfo = (today, oldDate) => {
-        dayElement.innerHTML = today.diff(oldDate, "days");
-        monthElement.innerHTML = today.diff(oldDate, "months");
-        yearElement.innerHTML = today.diff(oldDate, "years");
+    const updateInfoBoxes = (minDate, maxDate) => {
+        let min = minDate.clone();
+        let max = maxDate.clone();
+        dayElement.innerHTML = Math.round(max.diff(min, "days") * 100) / 100;
+        monthElement.innerHTML = Math.round(max.diff(min, "months") * 100) / 100;
+        yearElement.innerHTML = Math.round(max.diff(min, "years") * 100) / 100;
     };
 
-    updateTotal(now.clone(), halfLife.clone());
-    updateInfo(now.clone(), halfLife.clone());
+    updateTotal(halfLife, now);
+    updateInfoBoxes(halfLife, now);
 
     /*
     // Service worker
