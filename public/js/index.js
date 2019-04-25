@@ -4,7 +4,7 @@
     const monthElement = document.getElementById("month");
     const yearElement = document.getElementById("year");
 
-    const now = moment();
+    let today = moment();
     const halfLife = moment("2007-10-10");
 
     const updateTotal = (minDate, maxDate) => {
@@ -35,9 +35,22 @@
         yearElement.innerHTML = Math.round(max.diff(min, "years") * 100) / 100;
     };
 
-    updateTotal(halfLife, now);
-    updateInfoBoxes(halfLife, now);
+    setInterval(() => {
+        let present = moment("2019-04-26");
+        if (moment(present.format("YYYY-MM-DD")).isAfter(today.format("YYYY-MM-DD"))) {
+            today = present;
+            updateApp();
+        } else {
+            console.log("nope");
+        }
+    }, 3000);
 
+    const updateApp = () => {
+        updateTotal(halfLife, today);
+        updateInfoBoxes(halfLife, today);
+    };
+
+    updateApp();
     /*
     // Service worker
     if ("serviceWorker" in navigator) {
