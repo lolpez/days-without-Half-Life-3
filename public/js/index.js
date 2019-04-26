@@ -49,7 +49,7 @@
     };
 
     updateApp();
-    /*
+
     // Service worker
     if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("sw.js").then((reg) => {
@@ -58,5 +58,4 @@
             console.log("Service Worker Failed to Register 😩", err);
         });
     }
-    */
 })();
