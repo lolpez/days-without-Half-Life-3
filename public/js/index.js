@@ -5,7 +5,7 @@
     const yearElement = document.getElementById("year");
 
     let today = moment();
-    const halfLife = moment("2007-10-10");
+    const halfLife = moment("2020-03-23");
 
     const updateTotal = (minDate, maxDate) => {
         let min = minDate.clone();
