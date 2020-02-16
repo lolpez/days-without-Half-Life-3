@@ -1,7 +1,7 @@
 {
     "background_color": "#fb7e14",
     "theme_color": "#fb7e14",
-    "description": "Progressive web app showing the days without Half Life 3 since the release of HL2 ep. 2 and other curious information",
+    "description": "Progressive web app showing the days without Half Life 3 since the release of HLA and other curious information",
     "display": "standalone",
     "icons": [
         {
