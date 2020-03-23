@@ -5,7 +5,7 @@
     <br>Days without Half Life 3
 </h1>
 <h3 align="center">
-A Progressive Web App showing the days without Half Life 3 since the release of HL2 ep. 2 and other curious information.
+A Progressive Web App showing the days without Half Life 3 since the release of <a href="https://store.steampowered.com/app/546560/HalfLife_Alyx/"/>Half Life: Alyx</a> and other curious information.
 </h3>
     
 ### [Demo](https://days-without-half-life-3.herokuapp.com)
@@ -39,7 +39,7 @@ npm start
 ## License
 This project is licensed under the Apache License - see the [LICENSE.md](LICENSE) file for details.
 
-Valve, the Valve logo, Half-Life, the Half-Life logo, the Lambda logo, are registered trademarks of Valve Corporation. All other trademarks are property of their respective owners.
+Valve, the Valve logo, Half-Life, the Half-Life logo, the Half-Life: Alyx logo the Lambda logo, are registered trademarks of Valve Corporation. All other trademarks are property of their respective owners.
 
 ## Acknowledgments
 
