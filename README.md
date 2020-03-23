@@ -5,7 +5,7 @@
     <br>Days without Half Life 3
 </h1>
 <h3 align="center">
-A Progressive Web App showing the days without Half Life 3 since the release of <a href="https://store.steampowered.com/app/546560/HalfLife_Alyx/"/>Half Life: Alyx</a> and other curious information.
+A Progressive Web App showing the days without Half Life 3 since the release of <a href="https://store.steampowered.com/app/546560/HalfLife_Alyx/"/>Half-Life: Alyx</a> and other curious information.
 </h3>
     
 ### [Demo](https://days-without-half-life-3.herokuapp.com)
@@ -33,6 +33,15 @@ npm start
 ```
 * The server will start running at [Localhost](http://localhost:3000) listening to port 3000.
 
+### Making updates with PWA
+Progressive Web Apps rely on service workers. Everytime you make a code update on client-side, you have to update the [service worker version](https://github.com/lolpez/days-without-Half-Life-3/blob/master/public/sw.js#L19):
+
+```javascript
+const PRECACHE = "{ANY VERSION}";
+```
+
+The version must be different from the last one published in order to see changes on client-side. (It might require to refresh the web page)
+
 ## Author
 * **Luis Daniel** - *Developer*
 
@@ -49,7 +58,8 @@ Valve, the Valve logo, Half-Life, the Half-Life logo, the Half-Life: Alyx logo t
 * [PUG](https://pugjs.org)
 * [ESLint JavaScript Style Guide](https://eslint.org/docs/rules/)
 * [Valve Corporation](https://www.valvesoftware.com/en/)
-* [Half Life](https://store.steampowered.com/app/70/HalfLife/)
-* [Half Life 2](https://store.steampowered.com/app/220/HalfLife_2/)
+* [Half-Life](https://store.steampowered.com/app/70/HalfLife/)
+* [Half-Life 2](https://store.steampowered.com/app/220/HalfLife_2/)
+* [Half-Life: Alyx](https://store.steampowered.com/app/546560/HalfLife_Alyx/)
 * [Color-hex](https://www.color-hex.com/color-palette/22432)
 * Videogame gods
